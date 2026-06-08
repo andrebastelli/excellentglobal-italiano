@@ -507,15 +507,15 @@ function LandingPage() {
   <div className="relative mx-auto max-w-7xl px-5 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-4 py-1.5 text-xs font-semibold tracking-wide">
-                <MapPin className="h-3.5 w-3.5" /> LIMEIRA / SP — ESCOLA DE INGLÊS
+                <MapPin className="h-3.5 w-3.5" /> LIMEIRA / SP — ESCOLA DE ITALIANO
               </span>
 
               <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.05]">
-                Curso de Inglês em Limeira com Conversação Real
+                Curso de Italiano em Limeira com Conversação Real
               </h1>
 
               <p className="mt-5 text-lg md:text-xl text-white/85 max-w-xl">
-                Aprenda inglês com uma metodologia prática, não-linear e focada em fazer você ganhar
+                Aprenda italiano com uma metodologia prática, não-linear e focada em fazer você ganhar
                 confiança para conversar desde as primeiras aulas. Agende sua aula demonstrativa gratuita.
               </p>
 
@@ -559,7 +559,7 @@ function LandingPage() {
 
   <img
     src={heroImg}
-    alt="Professora conduzindo aula de conversação em inglês com alunos engajados na Excellent Global, Limeira"
+    alt="Professora conduzindo aula de conversação em italiano com alunos engajados na Excellent Global, Limeira"
     width={1536}
     height={1024}
     fetchPriority="high"
@@ -570,9 +570,9 @@ function LandingPage() {
   {/* FLAGS */}
   <div className="absolute top-4 right-4 flex gap-2 z-20">
     {[
-      { src: "https://flagcdn.com/w40/us.png", alt: "Estados Unidos" },
-      { src: "https://flagcdn.com/w40/gb.png", alt: "Reino Unido" },
-      { src: "https://flagcdn.com/w40/ca.png", alt: "Canadá" },
+       { src: "https://flagcdn.com/w40/it.png", alt: "Itália" },
+       { src: "https://flagcdn.com/w40/ch.png", alt: "Suíça" },
+       { src: "https://flagcdn.com/w40/sm.png", alt: "San Marino" },
     ].map((flag) => (
       <img
         key={flag.alt}
@@ -585,7 +585,7 @@ function LandingPage() {
 
   {/* LABEL */}
   <div className="absolute top-16 right-4 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1.5 rounded-full shadow z-20">
-    Curso de Inglês • Conversação Real
+    Curso de Italiano • Conversação Real
   </div>
 
               <div className="absolute -bottom-5 -left-5 bg-white text-foreground rounded-2xl p-4 shadow-elegant flex items-center gap-3 max-w-[230px]">
@@ -615,11 +615,11 @@ function LandingPage() {
         <section className="py-20 md:py-28">
           <div className="mx-auto max-w-5xl px-5 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold">
-              Você entende inglês, mas trava na hora de falar?
+              Você entende italiano, mas trava na hora de falar?
             </h2>
 
             <p className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Muitas pessoas estudam inglês por anos, decoram regras e fazem exercícios, mas continuam
+              Muitas pessoas estudam italiano por anos, decoram regras e fazem exercícios, mas continuam
               inseguras quando precisam conversar. Na Excellent Global, o foco é diferente: você pratica,
               revisa e evolui com acompanhamento.
             </p>
@@ -627,10 +627,10 @@ function LandingPage() {
 
           <div className="mx-auto max-w-6xl px-5 mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              "Tenho vergonha de falar inglês.",
+              "Tenho vergonha de falar italiano.",
               "Já comecei outros cursos e parei.",
               "Entendo algumas palavras, mas não consigo conversar.",
-              "Preciso do inglês para trabalho ou viagem.",
+              "Preciso do italiano para trabalho ou viagem.",
               "Quero aprender de forma prática.",
               "Quero evoluir com professores de verdade.",
             ].map((dor) => (
@@ -661,7 +661,7 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Por que escolher</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Muito mais que um curso de inglês em Limeira
+                Muito mais que um curso de italiano em Limeira
               </h2>
             </div>
 
@@ -670,7 +670,7 @@ function LandingPage() {
                 {
                   i: Mic,
                   t: "Aulas 100% conversação",
-                  d: "Você aprende praticando o inglês em situações reais, ganhando confiança para falar.",
+                  d: "Você aprende praticando o italiano em situações reais, ganhando confiança para falar.",
                 },
                 {
                   i: RotateCw,
@@ -721,13 +721,13 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Metodologia</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Uma metodologia para quem quer falar inglês de verdade
+                Uma metodologia para quem quer falar italiano de verdade
               </h2>
 
               <p className="mt-5 text-lg text-muted-foreground">
                 A metodologia da Excellent Global é não-linear e trabalha com revisão constante, prática
                 guiada e conversação. Isso permite que o aluno não apenas memorize conteúdos, mas consiga
-                usar o inglês com mais segurança no dia a dia.
+                usar o italiano com mais segurança no dia a dia.
               </p>
 
               <ol className="mt-7 space-y-3">
@@ -751,7 +751,7 @@ function LandingPage() {
 
               <blockquote className="mt-8 p-5 border-l-4 border-accent bg-accent/5 rounded-r-xl">
                 <p className="text-lg font-semibold italic">
-                  "Aqui, o inglês não fica só no papel. Ele vira conversa."
+                  "Aqui, o italiano não fica só no papel. Ele vira conversa."
                 </p>
               </blockquote>
 
@@ -765,7 +765,7 @@ function LandingPage() {
             <div className="relative">
               <img
                 src={teacherImg}
-                alt="Professora de inglês orientando aluna em aula de conversação"
+                alt="Professora de italiano orientando aluna em aula de conversação"
                 width={1024}
                 height={768}
                 loading="lazy"
@@ -781,7 +781,7 @@ function LandingPage() {
 
           <div className="relative mx-auto max-w-5xl px-5 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold">
-              Resgate sua aula demonstrativa gratuita de inglês
+              Resgate sua aula demonstrativa gratuita de italiano
             </h2>
 
             <p className="mt-5 text-lg text-white/85 max-w-2xl mx-auto">
@@ -840,7 +840,7 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Programas</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Escolha o ritmo ideal para aprender inglês
+                Escolha o ritmo ideal para aprender italiano
               </h2>
 
               <p className="mt-4 text-muted-foreground text-lg">
@@ -852,7 +852,7 @@ function LandingPage() {
               {[
                 { t: "Extensivo", h: "2 h / semana", d: "Para quem quer aprender com constância e equilíbrio." },
                 { t: "Semi-intensivo", h: "4 a 6 h / semana", d: "Para acelerar a evolução sem comprometer toda a rotina." },
-                { t: "Intensivo", h: "10 a 15 h / semana", d: "Para quem tem urgência em desenvolver o inglês." },
+                { t: "Intensivo", h: "10 a 15 h / semana", d: "Para quem tem urgência em desenvolver o italiano." },
                 { t: "Imersão", h: "20 a 26 h / mês", d: "Experiência mais profunda de aprendizado e prática." },
               ].map((p) => (
                 <div
@@ -880,13 +880,13 @@ function LandingPage() {
         <section className="py-20 md:py-28 bg-secondary/40">
           <div className="mx-auto max-w-5xl px-5">
             <h2 className="text-3xl md:text-4xl font-extrabold text-center max-w-3xl mx-auto">
-              O curso de inglês da Excellent Global é para você que...
+              O curso de italiano da Excellent Global é para você que...
             </h2>
 
             <ul className="mt-12 grid sm:grid-cols-2 gap-4">
               {[
-                "Quer aprender inglês em Limeira.",
-                "Precisa falar inglês para crescer profissionalmente.",
+                "Quer aprender italiano em Limeira.",
+                "Precisa falar italiano para crescer profissionalmente.",
                 "Quer viajar com mais segurança.",
                 "Deseja estudar fora ou participar de intercâmbio.",
                 "Já tentou aprender antes, mas não conseguiu manter evolução.",
@@ -909,7 +909,7 @@ function LandingPage() {
             <div className="order-2 lg:order-1">
               <img
                 src={groupImg}
-                alt="Alunos em troca cultural durante aulas de inglês"
+                alt="Alunos em troca cultural durante aulas de italiano"
                 width={1024}
                 height={768}
                 loading="lazy"
@@ -921,7 +921,7 @@ function LandingPage() {
               <span className="text-sm font-bold text-primary uppercase tracking-wider">Intercâmbio cultural</span>
 
               <h2 className="mt-2 text-3xl md:text-4xl font-extrabold">
-                Aprenda inglês e conecte-se com o mundo
+                Aprenda italiano e conecte-se com o mundo
               </h2>
 
               <p className="mt-5 text-lg text-muted-foreground">
@@ -932,7 +932,7 @@ function LandingPage() {
 
               <div className="mt-8">
                 <CTA event="click_whatsapp_intercambio">
-                  <Globe2 className="h-5 w-5" /> Quero começar pelo inglês
+                  <Globe2 className="h-5 w-5" /> Quero começar pelo italiano
                 </CTA>
               </div>
             </div>
@@ -950,11 +950,11 @@ function LandingPage() {
               {[
                 {
                   n: "Nome do aluno",
-                  d: "Depoimento sobre a experiência com as aulas de inglês, evolução na conversação e atendimento da escola.",
+                  d: "Depoimento sobre a experiência com as aulas de italiano, evolução na conversação e atendimento da escola.",
                 },
                 {
                   n: "Nome do aluno",
-                  d: "Depoimento sobre como a metodologia ajudou a ganhar confiança para falar inglês.",
+                  d: "Depoimento sobre como a metodologia ajudou a ganhar confiança para falar italiano.",
                 },
                 {
                   n: "Nome do aluno",
@@ -1035,14 +1035,14 @@ function LandingPage() {
                 ],
                 [
                   "O curso é para iniciantes?",
-                  "Sim. A metodologia permite que alunos iniciantes também comecem a desenvolver o inglês de forma progressiva.",
+                  "Sim. A metodologia permite que alunos iniciantes também comecem a desenvolver o italiano de forma progressiva.",
                 ],
                 [
                   "As aulas são presenciais em Limeira?",
                   "Sim. O atendimento e as aulas são presenciais em Limeira/SP.",
                 ],
                 [
-                  "Tenho vergonha de falar inglês. Esse curso é para mim?",
+                  "Tenho vergonha de falar italiano. Esse curso é para mim?",
                   "Sim. As aulas são conduzidas para ajudar o aluno a ganhar confiança aos poucos, com prática e acompanhamento.",
                 ],
                 ["A escola oferece certificado?", "Sim. A Excellent Global oferece certificado ao aluno."],
@@ -1077,7 +1077,7 @@ function LandingPage() {
 
           <div className="relative mx-auto max-w-3xl px-5">
             <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-              Dê o primeiro passo para falar inglês com confiança
+              Dê o primeiro passo para falar italiano com confiança
             </h2>
 
             <p className="mt-5 text-lg md:text-xl text-white/85">
@@ -1110,7 +1110,7 @@ function LandingPage() {
             </div>
 
             <p className="mt-3 text-primary-foreground/75 text-sm">
-              Escola de inglês em Limeira/SP. +25 anos formando alunos com conversação real e
+              Escola de italiano em Limeira/SP. +25 anos formando alunos com conversação real e
               metodologia prática.
             </p>
           </div>
@@ -1142,7 +1142,7 @@ function LandingPage() {
         </div>
 
         <div className="mx-auto max-w-6xl px-5 mt-10 pt-6 border-t border-white/10 text-xs text-primary-foreground/60">
-          © {new Date().getFullYear()} Excellent Global — Curso de Inglês em Limeira. Todos os direitos reservados. Desenvolvido por{" "}
+          © {new Date().getFullYear()} Excellent Global — Curso de italiano em Limeira. Todos os direitos reservados. Desenvolvido por{" "}
 <a
   href="https://bastelliconsultoria.com.br/"
   target="_blank"
