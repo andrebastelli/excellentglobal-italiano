@@ -95,9 +95,10 @@ function AgendamentoSection() {
 
   const horarios =
     diaSemana === 6
-      ? ["9:00", "10:00", "11:00"]
+      ? ["09:00", "10:00", "11:00"]
       : diaSemana !== null && diaSemana >= 1 && diaSemana <= 5
         ? [
+            "09:00",
             "10:00",
             "11:00",
             "12:00",
